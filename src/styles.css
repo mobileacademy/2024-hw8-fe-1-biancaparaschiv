@@ -1,16 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-#controls {
-    margin-bottom: 20px;
-}
-
 #gameBoard {
-    display: grid;
     margin: 0 auto;
-    gap: 2px;
 }
 
 .cell {
@@ -31,4 +20,9 @@ body {
 
 .cell.bomb {
     background-color: red;
+}
+
+.cell.opened {
+    background-color: white;
+    color: black;
 }
