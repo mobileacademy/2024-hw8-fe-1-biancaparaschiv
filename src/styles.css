@@ -1,0 +1,28 @@
+#gameBoard {
+    margin: 0 auto;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.cell.flagged {
+    background-color: yellow;
+}
+
+.cell.bomb {
+    background-color: red;
+}
+
+.cell.opened {
+    background-color: white;
+    color: black;
+}
